@@ -1,0 +1,55 @@
+{
+  "title_tag": "Riego Mendoza | Sistemas de Riego Automatizado e Hidroponía",
+  "meta_description": "Diseñamos y automatizamos sistemas de riego profesional en Mendoza. Infraestructura hídrica, jardines verticales e hidroponía. ¡Cotizá tu proyecto! ☎ 261 541 6946",
+  "keywords_principales": [
+    "riego automatizado mendoza",
+    "sistemas de riego mendoza",
+    "hidroponia mendoza",
+    "jardines verticales mendoza",
+    "infraestructura hidrica"
+  ],
+  "keywords_secundarias": [
+    "riego por goteo mendoza",
+    "jardineria automatizada",
+    "consultoria agricola mendoza",
+    "ingeniero agronomo riego",
+    "ahorro de agua cultivos"
+  ],
+  "estrategia_alt_images": {
+    "infraestructura-hidrica": "Sistema de reservorio y filtrado para infraestructura hídrica agrícola en Mendoza",
+    "jardinia-automatizada": "Sistema de riego automatizado para jardín residencial con aspersores inteligentes",
+    "jardines-verticales": "Muro verde vertical con sistema de riego integrado para espacios urbanos",
+    "hidroponia": "Sistema hidropónico profesional para cultivo sin suelo con ahorro de agua",
+    "asesoramiento-cultivos": "Ingeniero agrónomo realizando evaluación de suelo y sistema de riego en campo",
+    "hero-riego": "Equipo de Riego Mendoza instalando sistema de riego automatizado en finca mendocina",
+    "logo-riego-mendoza": "Logo de Riego Mendoza - Ingeniería del agua y sistemas de riego automatizado",
+    "luis-blanc": "Luis Matías Blanc, ingeniero agrónomo y fundador de Riego Mendoza"
+  },
+  "schema_markup": {
+    "tipo": "LocalBusiness",
+    "nombre": "Riego Mendoza",
+    "descripcion": "Diseñamos, optimizamos y automatizamos sistemas de riego a cualquier escala",
+    "telefono": "+5492615416946",
+    "email": "ingenieriariegomendoza@gmail.com",
+    "area_servicio": "Mendoza, Argentina",
+    "servicios": [
+      "Infraestructura Hídrica",
+      "Jardinería Automatizada",
+      "Jardines Verticales",
+      "Hidroponía",
+      "Asesoramiento de Cultivos"
+    ]
+  },
+  "contenido_seo": {
+    "h1_principal": "Sistemas de Riego Automatizado en Mendoza",
+    "h2_secundarios": [
+      "Infraestructura Hídrica para Campos y Chacras",
+      "Jardinería Automatizada para tu Hogar",
+      "Jardines Verticales Urbanos",
+      "Hidroponía: Cultiva sin Suelo",
+      "Consultoría Técnica en el Territorio"
+    ],
+    "cta_principal": "Cotizá tu Proyecto de Riego",
+    "cta_whatsapp": "¡Hola! Vi su página y quiero información sobre "
+  }
+}

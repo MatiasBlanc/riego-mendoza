@@ -1,0 +1,76 @@
+{
+  "identidad": {
+    "nombre": "Riego Mendoza",
+    "eslogan": "Ingeniería del agua con criterio técnico",
+    "personalidad": ["profesional", "técnico", "confiable", "sustentable"],
+    "tono_comunicacion": "Cercano pero experto. Evita tecnicismos innecesarios; habla como un ingeniero que explica con pasión."
+  },
+  "paleta_semantica": {
+    "brand": {
+      "primary": "#1A3626",
+      "secondary": "#9E8F66",
+      "accent": "#A8CCD2"
+    },
+    "surface": {
+      "background": "#F5F5DC",
+      "card": "#FFFFFF",
+      "overlay": "#1A3626CC"
+    },
+    "content": {
+      "heading": "#1A3626",
+      "body": "#3D3D3D",
+      "muted": "#6B7280",
+      "inverse": "#F5F5DC"
+    },
+    "feedback": {
+      "success": "#22C55E",
+      "warning": "#EAB308",
+      "error": "#EF4444"
+    }
+  },
+  "tipografias": {
+    "heading": {
+      "familia": "Montserrat",
+      "pesos_disponibles": ["400", "600", "700", "800"],
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap",
+      "uso": "Títulos principales, encabezados H1-H3, CTAs"
+    },
+    "body": {
+      "familia": "Inter",
+      "pesos_disponibles": ["300", "400", "500", "600"],
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap",
+      "uso": "Textos de cuerpo, párrafos, descripciones, botones secundarios"
+    }
+  },
+  "iconografia": {
+    "estilo": "Líneas finas con terminaciones redondeadas",
+    "referencia": "Lucide React",
+    "temas": ["agua", "planta", "hoja", "configuraciones", "calendario", "ubicación"]
+  },
+  "fotografia": {
+    "estilo": "Naturaleza, agua, verde, ingeniería",
+    "evitar": ["stock genérico", "personas con posed artificiales", "imágenes oscuras"]
+  },
+  "seo": {
+    "meta_title": "Riego Mendoza | Sistemas de Riego Automatizado e Hidroponía",
+    "meta_description": "Expertos en ingeniería del agua en Mendoza. Diseñamos, optimizamos y automatizamos sistemas de riego profesional, infraestructura hídrica, jardines verticales e hidroponía.",
+    "keywords": ["riego automatizado mendoza", "sistemas de riego mendoza", "hidroponia mendoza", "jardines verticales", "infraestructura hidrica", "ingenieria del agua", "riego por goteo", "riego agricola", "automatizacion de riego"],
+    "author": "Riego Mendoza",
+    "robots": "index, follow",
+    "canonical_url": "https://riegomendoza.com/",
+    "open_graph": {
+      "type": "website",
+      "url": "https://riegomendoza.com/",
+      "title": "Riego Mendoza | Sistemas de Riego Automatizado e Hidroponía",
+      "description": "Diseñamos y automatizamos sistemas de riego profesional en Mendoza. Soluciones sustentables e infraestructura hídrica.",
+      "image": "/og-image.jpg",
+      "locale": "es_AR"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Riego Mendoza | Sistemas de Riego Automatizado e Hidroponía",
+      "description": "Expertos en ingeniería del agua en Mendoza. Optimizamos sistemas de riego profesional.",
+      "image": "/og-image.jpg"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "servicios": [
+    {
+      "id": "infraestructura-hidrica",
+      "nombre": "Infraestructura Hídrica",
+      "descripcion": "Sistemas hidráulicos completos para grandes fincas y chacras. Reservorios industriales, cabezales de filtrado avanzado y automatización integral con monitoreo remoto. Hasta 40% de ahorro de agua.",
+      "imagen": "/servicios/infraestructura.jpg"
+    },
+    {
+      "id": "jardinia-automatizada",
+      "nombre": "Riego Residencial",
+      "descripcion": "Sistemas automatizados para jardines, terrazas y espacios verdes. Sensores de humedad y programación inteligente que se encargan de todo. Riego 100% automático para plantas siempre saludables.",
+      "imagen": "/servicios/residencial.jpg"
+    },
+    {
+      "id": "jardines-verticales",
+      "nombre": "Jardines Verticales",
+      "descripcion": "Diseño e instalación de jardines verticales con riego automatizado integrado. Estructuras botánicas que purifican el aire, aíslan térmicamente y convierten cualquier muro en un espacio verde.",
+      "imagen": "/servicios/verticales.jpg"
+    },
+    {
+      "id": "hidroponia",
+      "nombre": "Hidroponía",
+      "descripcion": "Sistemas hidropónicos llave en mano para hogares y productores. Cultivo limpio y constante todo el año usando 90% menos agua que el cultivo tradicional. Sin tierra ni pesticidas.",
+      "imagen": "/servicios/hidroponia.jpg"
+    },
+    {
+      "id": "asesoramiento-cultivos",
+      "nombre": "Auditoría Hídrica",
+      "descripcion": "Visita técnica a tu establecimiento para analizar el suelo y evaluar tu sistema de riego actual. Plan de optimización personalizado con retorno de inversión estimado. Respaldo UNCuyo.",
+      "imagen": "/servicios/auditoria.jpg"
+    }
+  ]
+}
