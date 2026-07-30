@@ -49,6 +49,24 @@ export default function Servicios() {
               <ServiceCard servicio={servicio} />
             </div>
           ))}
+          
+          {/* Card CTA personalizado */}
+          <article className="bg-musgo rounded-2xl p-8 flex flex-col justify-center text-center">
+            <h3 className="font-heading text-2xl md:text-3xl font-bold text-crema mb-4">
+              ¿Tu proyecto no entra en ninguna caja?
+            </h3>
+            <p className="font-body text-crema/70 text-base leading-relaxed mb-6">
+              Mejor. Los proyectos a medida son nuestra especialidad. Contanos qué querés regar y lo diseñamos juntos.
+            </p>
+            <a
+              href="https://wa.me/5492615416946?text=¡Hola!%20Tengo%20un%20proyecto%20a%20medida%20y%20quisiera%20consultarlos."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-crema text-musgo font-semibold rounded-xl transition-colors mx-auto"
+            >
+              Contame tu idea
+            </a>
+          </article>
         </div>
         
         {/* Botones Ver más / Ver menos - Solo visible en móvil */}

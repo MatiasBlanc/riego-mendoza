@@ -78,13 +78,13 @@ export default function SobreMi() {
                   href="https://wa.me/5492615416946?text=¡Hola%20Luis!%20Vi%20tu%20página%20y%20quiero%20consultarte%20sobre%20un%20proyecto."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 px-8 py-4 bg-musgo text-crema font-bold rounded-xl hover:bg-musgo-2 transition-colors"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-musgo text-crema font-bold rounded-xl transition-colors"
                 >
                   Hablemos de tu proyecto
                 </a>
                 <a
                   href="mailto:ingenieriariegomendoza@gmail.com"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3.5 font-body text-base font-semibold text-musgo/70 transition-colors hover:text-musgo"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3.5 font-body text-base font-semibold text-musgo/70 transition-colors"
                 >
                   <FaEnvelope size={14} />
                   Enviar Email

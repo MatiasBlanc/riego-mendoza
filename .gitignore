@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Fuentes completas (solo se usa public/fonts/)
+CabinetGrotesk_Complete/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
+/* Cabinet Grotesk - Fuente para títulos */
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/CabinetGrotesk-Extrabold.woff2') format('woff2'),
+       url('/fonts/CabinetGrotesk-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/CabinetGrotesk-Black.woff2') format('woff2'),
+       url('/fonts/CabinetGrotesk-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/CabinetGrotesk-Bold.woff2') format('woff2'),
+       url('/fonts/CabinetGrotesk-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-musgo: #1F3D2B;
   --color-musgo-2: #2E5940;
@@ -10,7 +38,7 @@
   --color-crema-2: #EDE8DA;
   --color-tinta: #2B2B26;
   --color-tinta-suave: #5A5A50;
-  --font-heading: 'Lora', Georgia, serif;
+  --font-heading: 'Cabinet Grotesk', system-ui, sans-serif;
   --font-body: 'Montserrat', system-ui, sans-serif;
 }
 

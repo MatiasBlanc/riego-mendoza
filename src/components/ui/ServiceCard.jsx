@@ -35,12 +35,12 @@ export default function ServiceCard({ servicio }) {
       {/* Contenido */}
       <div className="p-6">
         {/* Título */}
-        <h3 className="font-heading text-xl font-bold text-musgo mb-3">
+        <h3 className="font-heading text-2xl font-bold text-musgo mb-3">
           {servicio.nombre}
         </h3>
         
         {/* Descripción */}
-        <p className="font-body text-tinta-suave text-sm leading-relaxed mb-5">
+        <p className="font-body text-tinta-suave text-base leading-relaxed mb-5">
           {servicio.descripcion}
         </p>
         

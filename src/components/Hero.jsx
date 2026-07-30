@@ -54,7 +54,7 @@ export default function Hero() {
                 href={generarEnlaceWhatsApp()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2.5 rounded-xl px-6 py-3.5 font-body text-base font-semibold text-musgo bg-dorado hover:bg-dorado/90 shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all cursor-pointer"
+                className="inline-flex items-center justify-center gap-2.5 rounded-xl px-6 py-3.5 font-body text-base font-semibold text-crema border-2 border-crema hover:bg-crema hover:text-musgo shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all cursor-pointer"
                 aria-label="Cotizar proyecto por WhatsApp"
               >
                 <FaWhatsapp size={22} aria-hidden="true" />
