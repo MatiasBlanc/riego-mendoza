@@ -10,21 +10,21 @@ import { FaEnvelope } from 'react-icons/fa';
  */
 export default function SobreMi() {
   return (
-    <section id="sobre-mi" className="pt-12 pb-20 lg:pt-16 lg:pb-28 bg-crema">
+    <section id="sobre-mi" className="pt-12 pb-20 lg:pt-16 lg:pb-28 bg-crema" aria-labelledby="sobre-mi-heading">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Encabezado */}
-          <div className="text-center mb-12">
-            <div className="eyebrow justify-center">
+          <header className="text-center mb-12">
+            <p className="eyebrow justify-center">
               Sobre mí
-            </div>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-musgo mt-4">
+            </p>
+            <h2 id="sobre-mi-heading" className="font-heading text-4xl md:text-5xl font-bold text-musgo mt-4">
               Luis Matías Blanc
             </h2>
             <p className="font-body text-tinta-suave text-lg mt-3">
               Ingeniero Agrónomo — UNCuyo
             </p>
-          </div>
+          </header>
 
           {/* Contenido principal */}
           <div className="grid md:grid-cols-5 gap-10 items-start">

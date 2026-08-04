@@ -71,32 +71,32 @@ export default function Hero() {
             </div>
 
             {/* Métricas integradas */}
-            <div className="mt-12 pt-8 border-t border-crema-2/10 grid grid-cols-3 gap-4">
-              <div>
+            <ul className="mt-12 pt-8 border-t border-crema-2/10 grid grid-cols-3 gap-4">
+              <li>
                 <p className="font-heading text-2xl lg:text-3xl font-bold text-crema-2">
                   40<span className="text-dorado">%</span>
                 </p>
                 <p className="font-body text-xs font-semibold text-crema-2/70 mt-1">
                   Ahorro de agua
                 </p>
-              </div>
-              <div>
+              </li>
+              <li>
                 <p className="font-heading text-2xl lg:text-3xl font-bold text-crema-2">
                   100<span className="text-dorado">%</span>
                 </p>
                 <p className="font-body text-xs font-semibold text-crema-2/70 mt-1">
                   Automatizado
                 </p>
-              </div>
-              <div>
+              </li>
+              <li>
                 <p className="font-heading text-2xl lg:text-3xl font-bold text-crema-2">
                   24/7
                 </p>
                 <p className="font-body text-xs font-semibold text-crema-2/70 mt-1">
                   Monitoreo
                 </p>
-              </div>
-            </div>
+              </li>
+            </ul>
           </header>
 
           <div className="hidden lg:block">

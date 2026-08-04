@@ -26,9 +26,9 @@ export default function Servicios() {
       <div className="container mx-auto px-6">
         {/* Encabezado de sección */}
         <header className="text-center mb-16">
-          <div className="eyebrow justify-center">
+          <p className="eyebrow justify-center">
             Nuestros Servicios
-          </div>
+          </p>
           <h2 
             id="servicios-heading"
             className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-musgo mt-4"
@@ -40,34 +40,36 @@ export default function Servicios() {
         </header>
         
         {/* Grid de servicios */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {serviciosData.map((servicio, index) => (
-            <div 
+            <li 
               key={servicio.id}
               className={index >= 3 && !mostrarTodos ? 'hidden md:block' : ''}
             >
               <ServiceCard servicio={servicio} />
-            </div>
+            </li>
           ))}
           
           {/* Card CTA personalizado */}
-          <article className="bg-musgo rounded-2xl p-8 flex flex-col justify-center text-center">
-            <h3 className="font-heading text-2xl md:text-3xl font-bold text-crema mb-4">
-              ¿Tu proyecto no entra en ninguna caja?
-            </h3>
-            <p className="font-body text-crema/70 text-base leading-relaxed mb-6">
-              Mejor. Los proyectos a medida son nuestra especialidad. Contanos qué querés regar y lo diseñamos juntos.
-            </p>
-            <a
-              href="https://wa.me/5492615416946?text=¡Hola!%20Tengo%20un%20proyecto%20a%20medida%20y%20quisiera%20consultarlos."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-crema text-musgo font-semibold rounded-xl transition-colors mx-auto"
-            >
-              Contame tu idea
-            </a>
-          </article>
-        </div>
+          <li>
+            <article className="bg-musgo rounded-2xl p-8 flex flex-col justify-center text-center">
+              <h3 className="font-heading text-2xl md:text-3xl font-bold text-crema mb-4">
+                ¿Tu proyecto no entra en ninguna caja?
+              </h3>
+              <p className="font-body text-crema/70 text-base leading-relaxed mb-6">
+                Mejor. Los proyectos a medida son nuestra especialidad. Contanos qué querés regar y lo diseñamos juntos.
+              </p>
+              <a
+                href="https://wa.me/5492615416946?text=¡Hola!%20Tengo%20un%20proyecto%20a%20medida%20y%20quisiera%20consultarlos."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-crema text-musgo font-semibold rounded-xl transition-colors mx-auto"
+              >
+                Contame tu idea
+              </a>
+            </article>
+          </li>
+        </ul>
         
         {/* Botones Ver más / Ver menos - Solo visible en móvil */}
         {serviciosData.length > 3 && (

@@ -18,18 +18,16 @@ export default function StatItem({ value, label, suffix = '', className = '' }) 
     <li
       className={`flex list-none flex-col items-center justify-center px-5 py-8 text-center sm:px-6 md:py-10 ${className}`.trim()}
     >
-      <article className="flex w-full flex-col items-center gap-3">
-        <p className="font-heading text-[2.5rem] font-bold leading-none tracking-tight text-musgo md:text-5xl lg:text-[3.25rem]">
-          <data value={valorCompleto} className="tabular-nums">
-            {value}
-            {suffix ? <span className="text-dorado">{suffix}</span> : null}
-          </data>
-        </p>
+      <p className="font-heading text-[2.5rem] font-bold leading-none tracking-tight text-musgo md:text-5xl lg:text-[3.25rem]">
+        <data value={valorCompleto} className="tabular-nums">
+          {value}
+          {suffix ? <span className="text-dorado">{suffix}</span> : null}
+        </data>
+      </p>
 
-        <h3 className="max-w-[11rem] font-body text-sm font-semibold leading-relaxed tracking-[0.02em] text-tinta-suave md:text-base">
-          {label}
-        </h3>
-      </article>
+      <p className="max-w-[11rem] font-body text-sm font-semibold leading-relaxed tracking-[0.02em] text-tinta-suave md:text-base">
+        {label}
+      </p>
     </li>
   );
 }

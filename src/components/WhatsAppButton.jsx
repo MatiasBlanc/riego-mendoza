@@ -27,12 +27,15 @@ export default function WhatsAppButton() {
       aria-label="Contactar por WhatsApp"
     >
       {/* Tooltip */}
-      <div className="absolute bottom-full right-0 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-        <div className="bg-musgo text-crema text-xs font-medium px-4 py-2 rounded-xl whitespace-nowrap shadow-card">
+      <span 
+        role="tooltip" 
+        className="absolute bottom-full right-0 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+      >
+        <span className="bg-musgo text-crema text-xs font-medium px-4 py-2 rounded-xl whitespace-nowrap shadow-card">
           ¡Escribinos!
-          <div className="absolute -bottom-1 right-6 w-2 h-2 bg-musgo rotate-45" />
-        </div>
-      </div>
+          <span className="absolute -bottom-1 right-6 w-2 h-2 bg-musgo rotate-45" />
+        </span>
+      </span>
       
       {/* Botón */}
       <div className="relative">

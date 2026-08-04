@@ -25,3 +25,5 @@ CabinetGrotesk_Complete/
 *.njsproj
 *.sln
 *.sw?
+
+data/brand.json
