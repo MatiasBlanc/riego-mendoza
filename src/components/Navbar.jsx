@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import { FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
+import { useState } from "react";
+import { FaBars, FaInstagram, FaTimes } from "react-icons/fa";
 
 const navElements = [
-  { name: 'Inicio', href: '#' },
-  { name: 'Servicios', href: '#servicios' },
-  { name: 'Sobre mí', href: '#sobre-mi' }
+  { name: "Inicio", href: "#" },
+  { name: "Servicios", href: "#servicios" },
+  { name: "Sobre mí", href: "#sobre-mi" },
 ];
 
 export default function Navbar() {
@@ -13,13 +13,20 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav aria-label="Navegación principal" className="fixed top-0 left-0 right-0 z-40 bg-crema/90 backdrop-blur-md border-b border-musgo/5">
+    <nav
+      aria-label="Navegación principal"
+      className="fixed top-0 left-0 right-0 z-40 bg-crema backdrop-blur-md border-b border-musgo/5"
+    >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo + Nombre */}
-        <a href="#" className="flex items-center gap-3" aria-label="Ir al inicio">
-          <img 
-            src="/logo-circular.png" 
-            alt="Logo Riego Mendoza" 
+        <a
+          href="#"
+          className="flex items-center gap-3"
+          aria-label="Ir al inicio"
+        >
+          <img
+            src="/logo-circular.png"
+            alt="Logo Riego Mendoza"
             className="w-14 h-14 object-contain"
           />
           <div>
@@ -28,14 +35,14 @@ export default function Navbar() {
             </span>
           </div>
         </a>
-        
+
         {/* Enlaces de navegación - Desktop */}
         <div className="hidden md:flex items-center gap-8">
           <ul className="flex items-center gap-8">
             {navElements.map((item, index) => (
               <li key={index}>
-                <a 
-                  href={item.href} 
+                <a
+                  href={item.href}
                   className="font-body text-base font-medium text-tinta-suave hover:text-musgo transition-colors relative group"
                 >
                   {item.name}
@@ -44,11 +51,11 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          
+
           <div className="flex items-center gap-4">
-            <a 
-              href="https://instagram.com" 
-              target="_blank" 
+            <a
+              href="https://instagram.com"
+              target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
               className="text-tinta-suave hover:text-musgo transition-colors"
@@ -59,7 +66,7 @@ export default function Navbar() {
         </div>
 
         {/* Botón menú móvil */}
-        <button 
+        <button
           className="md:hidden text-tinta-suave hover:text-musgo focus:outline-none active:scale-95 transition-transform"
           onClick={toggleMenu}
           aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
@@ -71,12 +78,12 @@ export default function Navbar() {
 
       {/* Menú Móvil */}
       {isOpen && (
-        <div className="md:hidden bg-crema border-t border-musgo/5">
+        <div className="md:hidden border-t border-musgo/5">
           <ul className="flex flex-col px-6 py-6 space-y-6">
             {navElements.map((item, index) => (
               <li key={index}>
-                <a 
-                  href={item.href} 
+                <a
+                  href={item.href}
                   className="block font-body text-lg font-medium text-tinta-suave hover:text-musgo active:bg-musgo/5 active:text-musgo px-4 py-3 rounded-xl transition-all"
                   onClick={() => setIsOpen(false)}
                 >
@@ -85,9 +92,9 @@ export default function Navbar() {
               </li>
             ))}
             <li className="pt-4 border-t border-musgo/10">
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 text-tinta-suave hover:text-musgo active:bg-musgo/5 rounded-xl transition-all"
                 aria-label="Instagram"
